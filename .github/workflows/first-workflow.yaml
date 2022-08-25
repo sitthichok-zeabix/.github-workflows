@@ -5,7 +5,7 @@ on:
         - "main"
   jobs:
     lab-job:
-        run-ons: ubuntu-latest
+        runs-ons: ubuntu-latest
         steps:
             - name: Start job
               run: echo 'Hello DevOps'  
