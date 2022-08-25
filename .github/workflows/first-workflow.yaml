@@ -1,11 +1,12 @@
 name: lab01workflow
+
 on:
   push:
     branches:
-        - "main"
+      - "main"
 jobs:
-    lab-job:
-        run-ons: ubuntu-latest
-        steps:
-            - name: Start job
-              run: echo 'Hello DevOps'  
+  lab-job:
+  run-ons: ubuntu-latest
+    steps:
+      - name: Start job
+        run: echo 'Hello DevOps'  
